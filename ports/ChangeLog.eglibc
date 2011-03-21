@@ -1,3 +1,8 @@
+2011-03-21  Joseph Myers  <joseph@codesourcery.com>
+
+	* sysdeps/arm/eabi/bits/predefs.h: Correct license reference in
+	last paragraph of license notice.
+
 2010-10-12  Joseph Myers  <joseph@codesourcery.com>
 
 	* sysdeps/powerpc/powerpc32/e500/fpu/feupdateenv.c (feupdateenv):

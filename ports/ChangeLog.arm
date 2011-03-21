@@ -1,3 +1,24 @@
+2011-03-21  Joseph Myers  <joseph@codesourcery.com>
+
+	* sysdeps/arm/eabi/__longjmp.S, sysdeps/arm/eabi/bits/fenv.h,
+	sysdeps/arm/eabi/fclrexcpt.c, sysdeps/arm/eabi/fedisblxcpt.c,
+	sysdeps/arm/eabi/feenablxcpt.c, sysdeps/arm/eabi/fegetenv.c,
+	sysdeps/arm/eabi/fegetexcept.c, sysdeps/arm/eabi/fegetround.c,
+	sysdeps/arm/eabi/feholdexcpt.c, sysdeps/arm/eabi/fesetenv.c,
+	sysdeps/arm/eabi/fesetround.c, sysdeps/arm/eabi/fpu_control.h,
+	sysdeps/arm/eabi/fraiseexcpt.c, sysdeps/arm/eabi/fsetexcptflg.c,
+	sysdeps/arm/eabi/ftestexcept.c, sysdeps/arm/eabi/setjmp.S,
+	sysdeps/unix/sysv/linux/arm/____longjmp_chk.S,
+	sysdeps/unix/sysv/linux/arm/eabi/____longjmp_chk.S: Correct
+	license reference in last paragraph of license notice.
+
+2011-02-16  Manjunath Matti  <manjunath81@gmail.com>
+
+	* sysdeps/arm/sysdep.h (CALL_MCOUNT): Use __gnu_mcount_nc
+	interface for EABI with GCC 4.4 or later.
+	(mcount): Define to __gnu_mcount_nc for EABI with GCC 4.4 or
+	later.
+
 2011-01-25  Joseph Myers  <joseph@codesourcery.com>
 
 	* sysdeps/unix/sysv/linux/arm/bits/mman.h (MADV_HUGEPAGE,
