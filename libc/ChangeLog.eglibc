@@ -1,3 +1,10 @@
+2011-06-23  Maxim Kuvyrkov  <maxim@codesourcery.com>
+
+	Backport from trunk:
+	2011-06-23  Paul Pluzhnikov  <ppluzhnikov@google.com>
+	* resolv/res_libc.c (__res_initstamp): Declare unconditionally.
+	(__res_maybe_init): Avoid double-checked locking.
+
 2011-06-10  Maxim Kuvyrkov  <maxim@codesourcery.com>
 
 	Backport from trunk:
