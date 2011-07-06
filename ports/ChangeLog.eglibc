@@ -1,3 +1,8 @@
+2011-07-06  David Kuehling  <dvdkhlng@gmx.de>
+
+	* ports/sysdeps/powerpc/powerpc32/e500/fpu/s_fma.c,
+	ports/sysdeps/powerpc/powerpc32/e500/fpu/s_fmaf.c: New files.
+
 2011-03-21  Joseph Myers  <joseph@codesourcery.com>
 
 	* sysdeps/arm/eabi/bits/predefs.h: Correct license reference in
