@@ -1191,6 +1191,7 @@ $(objpfx)tst-unique2: $(libdl) $(objpfx)tst-unique2mod1.so
 $(objpfx)tst-unique2.out: $(objpfx)tst-unique2mod2.so
 
 $(objpfx)tst-initorder.out: $(objpfx)tst-initorder
+	$(cross-test-wrapper) \
 	$(elf-objpfx)${rtld-installed-name} \
 	  --library-path $(rpath-link)$(patsubst %,:%,$(sysdep-library-path)) \
 	  $< > $@
